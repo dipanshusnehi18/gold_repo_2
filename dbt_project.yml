@@ -41,4 +41,6 @@ models:
     gold:
       +materialized: table
     staging:
-      +materialized: table  
+      +materialized: table 
+    intermediate:
+      +materialized: table 

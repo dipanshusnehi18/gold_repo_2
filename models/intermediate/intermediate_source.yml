@@ -1,0 +1,11 @@
+version: 2
+
+sources:
+  - name: inter_sample
+    database: DBT_CLOUD
+    schema: DBT_DSNEHI
+    tables:
+      - name: tpch_customer
+
+
+
