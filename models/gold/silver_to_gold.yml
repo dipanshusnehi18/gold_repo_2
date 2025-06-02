@@ -1,0 +1,16 @@
+version: 2
+
+sources:
+  - name: silver
+    database: SNOWFLAKE_SAMPLE_DATA
+    schema: TPCH_SF1
+    tables:
+      - name: customer
+
+
+models:
+  - name: build_gold_model
+    columns:
+     - name: c_mktsegment
+     - name: total_c_acctbal
+ 

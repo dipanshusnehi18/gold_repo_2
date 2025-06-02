@@ -1,0 +1,11 @@
+version: 2
+
+models:
+  - name: tpch_customer
+    columns:
+      - name: C_ADDRESS
+      - name: C_NAME
+      - name: C_NATIONKEY
+      - name: C_ACCTBAL
+      - name: C_MKTSEGMENT
+
